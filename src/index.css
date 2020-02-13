@@ -20,3 +20,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Scheherazade Font Family */
+@font-face {
+  font-family: "Scheherazade";
+  src: url(./assets/fonts/Scheherazade/Scheherazade-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Scheherazade";
+  src: url(./assets/fonts/Scheherazade/Scheherazade-Bold.ttf);
+  font-weight: 700;
+}
+
+/* Mukta Vaani Font Family */
+
+@font-face {
+  font-family: "Mukta Vaani";
+  src: url(./assets/fonts/Mukta-Vaani/MuktaVaani-ExtraLight.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Mukta Vaani";
+  src: url(./assets/fonts/Mukta-Vaani/MuktaVaani-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Mukta Vaani";
+  src: url(./assets/fonts/Mukta-Vaani/MuktaVaani-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Mukta Vaani";
+  src: url(./assets/fonts/Mukta-Vaani/MuktaVaani-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Mukta Vaani";
+  src: url(./assets/fonts/Mukta-Vaani/MuktaVaani-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Mukta Vaani";
+  src: url(./assets/fonts/Mukta-Vaani/MuktaVaani-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Mukta Vaani";
+  src: url(./assets/fonts/Mukta-Vaani/MuktaVaani-ExtraBold.ttf);
+  font-weight: 800;
+}

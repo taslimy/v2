@@ -24,8 +24,8 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="bubble-wrapper">
-        <div className="square square-1"></div>
-        <div className="square square-2"></div>
+        <div className="bubble bubble-1"></div>
+        <div className="bubble bubble-2"></div>
       </div>
     </>
   );
