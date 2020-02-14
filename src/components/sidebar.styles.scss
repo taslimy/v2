@@ -17,22 +17,53 @@
       font-weight: 700;
       font-size: 5rem;
       letter-spacing: 2px;
+      margin-bottom: -25px;
     }
 
     p {
       font-family: "Mukta Vaani";
       font-weight: 200;
       font-size: 1rem;
+      margin-bottom: 25px;
       a {
         font-family: Mukta Vaani;
         font-weight: 400;
         text-decoration: none;
-        border-radius: 50px;
-        padding: 2px 15px;
-        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        color: #3b80fe;
 
         &:hover {
-          color: #000000;
+          opacity: 0.66;
+        }
+      }
+    }
+    .contact-resume {
+      font-family: "Mukta Vaani";
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      margin-top: 10px;
+      margin-left: -8px;
+      .contact {
+        color: #fafafa;
+        margin-left: 5px;
+        border-radius: 5px;
+        padding: 8px 20px;
+        margin-right: 5px;
+        text-decoration: none;
+        background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
+        &:hover {
+          opacity: 0.66;
+        }
+      }
+
+      .resume {
+        color: #fafafa;
+        margin-left: 5px;
+        border-radius: 5px;
+        padding: 8px 20px;
+        text-decoration: none;
+        background-image: linear-gradient(135deg, #90f7ec 10%, #32ccbc 100%);
+        &:hover {
+          opacity: 0.66;
         }
       }
     }

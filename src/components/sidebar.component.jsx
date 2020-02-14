@@ -19,8 +19,24 @@ const Sidebar = () => {
               {" "}
               Opportunities
             </a>{" "}
-            as a designer or developer.
+            as a designer or developer. Check out examples of my work!
           </p>
+          <div className="contact-resume">
+            <a
+              className="contact"
+              href="mailto:taslim.yakub.dev@gmail.com?subject=Website Inquiry"
+            >
+              Contact me
+            </a>
+            <a
+              className="resume"
+              href="https://drive.google.com/file/d/17g6nZ9ITSnjuviSib4hm4lz6P3XOz2aX/view Inquiry"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </div>
         </div>
       </div>
       <div className="bubble-wrapper">
