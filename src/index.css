@@ -16,6 +16,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #abdcff;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

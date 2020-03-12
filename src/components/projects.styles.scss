@@ -41,8 +41,24 @@
     }
     .project-heading {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
+      flex-direction: column;
+
+      .project-links {
+        display: flex;
+        justify-content: space-between;
+        width: 175px;
+        a {
+          font-family: "Mukta Vaani";
+          font-weight: 200;
+          color: #ffffff;
+          text-decoration: none;
+          opacity: 0.6;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
     }
   }
 }
