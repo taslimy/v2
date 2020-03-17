@@ -30,7 +30,7 @@ const Sidebar = () => {
             </a>
             <a
               className="resume"
-              href="https://drive.google.com/file/d/17g6nZ9ITSnjuviSib4hm4lz6P3XOz2aX/view Inquiry"
+              href={require("../assets/files/taslim_yakub_resume.pdf")}
               target="_blank"
               rel="noopener noreferrer"
             >
