@@ -1,13 +1,48 @@
 import React from "react";
 
-import projects from "../data/resume";
+import Data from "../data/resume";
 
 import "./projects.styles.scss";
 
 const Projects = () => {
+  const projects = Data.projects.items;
+
   return (
     <div class="project-wrapper">
-      <div
+      {console.log(projects)}
+      {projects.map(p => (
+        <div
+          className="projects"
+          style={{
+            backgroundImage: `${p.kitBackgroundImage}`,
+            backgroundImage: `${p.backgroundImage}`
+          }}
+        >
+          <h4>0{p.id}</h4>
+          <div className="wrap">
+            <img className="image" src={p.img} alt={p.name} />
+            <img className="shadow" src={p.img} alt={p.name} />
+          </div>
+          <div className="project-heading">
+            <div className="project-information">
+              <h4>{p.name}</h4>
+              <h5>{p.description}</h5>
+            </div>
+            <div className="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Github
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Demo
+              </a>
+              {/* <a href="#" target="_blank" rel="noopener noreferrer">
+                Read more
+              </a> */}
+            </div>
+          </div>
+        </div>
+      ))}
+      {/* <div
         class="projects"
         style={{
           backgroundImage:
@@ -45,8 +80,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div
+      </div> */}
+      {/* <div
         class="projects"
         style={{
           backgroundImage:
@@ -123,7 +158,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

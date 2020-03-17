@@ -5,7 +5,12 @@ const projects = {
     items: [
       {
         id: 1,
-        name: "Your Spotify",
+        name: "your spotify",
+        img:
+          "https://images.unsplash.com/photo-1542837201-998d8469d90a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=850",
+        kitBackgroundImage:
+          "-webkit-gradient(linear, left top, left bottom, from(#f4b93d), to(#f4b93d))",
+        backgroundImage: "linear-gradient(180deg, #f4b93d, #f4b93d)",
         description:
           "My Spotify Dashboard is a Full-Stack React application that leverages Spotify's API to display information about the user's listening habits.",
         bulletpoints: [
@@ -18,8 +23,13 @@ const projects = {
       {
         id: 2,
         name: "key conservation",
+        img:
+          "https://images.unsplash.com/photo-1544961371-516024f8e267?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=850",
+        kitBackgroundImage:
+          "-webkit-gradient(linear, left top, left bottom, from(#005ba9), to(#005ba9))",
+        backgroundImage: "linear-gradient(180deg, #005ba9, #005ba9)",
         description:
-          "Key Conservation is a mobile application helping conservationists gain funding and global support by posting campaigns. A team of six developers and two UX/UI designers built the first version of this app over eight weeks. It is a legacy project that's apart of the Lambda School Labs program. The photos reflect the latest iteration of the app done by a new dev team.",
+          "Key Conservation is a mobile application helping conservationists gain funding and global support by posting campaigns.",
         bulletpoints: [
           "Pair programmed the front-end layout, navigation, screens & buttons",
           "Pair programmed the backend using NodeJS & Express",
