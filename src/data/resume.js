@@ -12,7 +12,7 @@ const projects = {
           "-webkit-gradient(linear, left top, left bottom, from(#f4b93d), to(#f4b93d))",
         backgroundImage: "linear-gradient(180deg, #f4b93d, #f4b93d)",
         description:
-          "My Spotify Dashboard is a Full-Stack React application that leverages Spotify's API to display information about the user's listening habits.",
+          "Your Spotify is a Full-Stack React application that leverages Spotify's API to display information about the user's listening habits.",
         bulletpoints: [
           "Detailed visual of top artists & top tracks displayed on cards",
           "List view of recently played tracks with live updates",
