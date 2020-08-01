@@ -5,6 +5,13 @@
   margin-left: 40%;
   font-family: "Mukta Vaani";
 
+  h4 {
+    display: flex;
+    align-self: start;
+    color: #ffffff;
+    font-weight: 400;
+  }
+
   .projects {
     width: 100%;
     height: 100vh;
@@ -34,11 +41,6 @@
       }
     }
 
-    h4,
-    h5 {
-      font-weight: 200;
-      text-align: start;
-    }
     .project-heading {
       display: flex;
       flex-direction: column;
@@ -58,6 +60,22 @@
             opacity: 1;
           }
         }
+      }
+    }
+    .project-information {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: #ffffff;
+      h4 {
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 0.7px;
+      }
+      h5 {
+        font-weight: 100;
+        font-size: 14px;
+        letter-spacing: 1px;
       }
     }
   }

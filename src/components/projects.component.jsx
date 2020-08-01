@@ -10,12 +10,12 @@ const Projects = () => {
   return (
     <div class="project-wrapper">
       {console.log(projects)}
-      {projects.map(p => (
+      {projects.map((p) => (
         <div
           className="projects"
           style={{
             backgroundImage: `${p.kitBackgroundImage}`,
-            backgroundImage: `${p.backgroundImage}`
+            backgroundImage: `${p.backgroundImage}`,
           }}
         >
           <h4>0{p.id}</h4>
@@ -34,6 +34,9 @@ const Projects = () => {
               </a>
               <a href="/" target="_blank" rel="noopener noreferrer">
                 Demo
+              </a>
+              <a href="/" target="_blank" rel="noopener noreferrer">
+                Dribbble
               </a>
               {/* <a href="#" target="_blank" rel="noopener noreferrer">
                 Read more
