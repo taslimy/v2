@@ -29,10 +29,10 @@ const Projects = () => {
               <h5>{p.description}</h5>
             </div>
             <div className="project-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/" target="_blank" rel="noopener noreferrer">
                 Github
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/" target="_blank" rel="noopener noreferrer">
                 Demo
               </a>
               {/* <a href="#" target="_blank" rel="noopener noreferrer">
